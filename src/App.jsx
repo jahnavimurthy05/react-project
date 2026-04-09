@@ -64,6 +64,7 @@ const App=()=>{
     <Hooks/>
     <hr></hr>
     <TextHooks/>
+    <hr></hr>
     </>
   )
 }
