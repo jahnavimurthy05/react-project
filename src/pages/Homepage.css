@@ -1,0 +1,123 @@
+*{
+padding:0;
+margin:0px;
+box-sizing:border-box;
+}
+
+.page{
+    background-color:#004caa;
+    width:100svw;
+    height:100svh;
+    position:relative;
+}
+
+#home_header{
+    width:80%;
+    height:10%;
+    border-radius:10px;
+    background-color: white;
+    position:absolute;
+    left:150px;
+    top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    
+}
+#home_header ul{
+    color:#1a1a76;
+    font-size: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-style: none;
+
+}
+#home_header ul li{
+   padding:50px;
+    margin:10px;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    width:20%;
+    height:90%;
+    border-radius:10px;
+   
+    position:relative;
+    top:3%;
+    left:2%;
+    border-radius:90px;
+}
+#left_content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    height:80%;
+    position: absolute;
+    top:25%;
+    left:5%;
+    
+}
+#left_content h1{
+    color:antiquewhite;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#left_content h2{
+    color:antiquewhite;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#left_content p{
+    color:antiquewhite;
+    font-size: 20px;
+    font-weight: bolder;
+    width:80%;
+}
+#buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#b1,#b2{
+    padding:5px;
+    font-size:20px;
+    margin:20px;
+    width:250px;
+    height:60px;
+    border:1px solid white;
+    color: white;
+}
+#b1{
+    background-color: #fc5185;
+}
+#b2{
+    background-color: #004caa;
+}
+#b1:hover{
+    background-color:#004caa;
+}
+#b2:hover{
+    background-color: #fc5185;
+}
+#right_image img{
+    width:100%;
+    height:100%;
+}
+#right_image{
+
+    width:45%;
+    height:70%;
+    position: absolute;
+    top:25%;
+    right:1%;
+    
+}

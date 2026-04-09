@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.body{
+    background-color: black;
+    color:white;
+    width:50svw;
+    height:50svh;  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
